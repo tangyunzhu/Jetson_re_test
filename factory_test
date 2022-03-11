@@ -1,0 +1,25 @@
+#!/bin/bash
+
+
+count = 0
+while [ 1 ]
+do
+
+	# print header
+	echo ""
+	echo ""
+	echo ""
+	echo "-------------------------"
+	let "count = $count + 1"
+	echo count=$count
+	echo "-------------------------"
+	echo $1
+	echo ""
+
+	./auto_wlan0
+	./auto_bt
+	./auto_usb_speed
+	./auto_ping $1
+	./auto_csi
+	sleep 1
+done
