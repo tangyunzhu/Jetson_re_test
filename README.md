@@ -7,5 +7,5 @@ auto_usb	-> Just found usb devices
 auto_usb_speed	-> USB write & read speed   
 factory_test	-> run all the function test   
 v4l2_test	-> camara test tool   
-t		-> factory operator using   
+t		-> re test & factory operator using   
 
